@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+#Runtime data
+
+**/data/
+**/wal/
+**/cache/
+**/chunks/
+**/traces/
+**/tsdb-index/
+**/tsdb-cache/
+**/compactor/
+
+#Logs
+
+logs/
+log/
+*.log
+
+#OS/editor files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

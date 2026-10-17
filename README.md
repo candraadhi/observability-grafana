@@ -245,3 +245,10 @@ These improvements will be introduced when they address a concrete operational r
 **Primary focus:** Metrics, logs, traces, and host/container monitoring
 
 The current version focuses on the core observability stack and its use in a personal homelab. Kubernetes integration, alerting, high availability, and other enhancements remain future work unless explicitly implemented and validated.
+
+## Screenshots
+
+### Container Resource Monitoring
+
+![Grafana logs](screenshots/grafana-logs.png)
+![Grafana container metrics](screenshots/grafana-docker-metrics.png)
